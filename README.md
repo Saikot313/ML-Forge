@@ -117,7 +117,7 @@ Caveats that matter:
 | | |
 |---|---|
 | ![API docs](screenshots/API_Page.png) | ![Health](screenshots/Predict_Responce_GET.png) |
-| ![Predict](screenshots/Predict_Responce_POST.png) | ![Batch predict](screenshots/Predict_Responce_POST_batch_1.png) |
+| ![Predict](screenshots/Predict_Responce_POST.png) | ![Batch predict](screenshots/Predict_Responce_POST_batch.png) |
 
 Endpoints: `GET /health`, `POST /predict`, `POST /predict/batch`. Invalid input returns a clear error: wrong feature count gives **422**, an oversized batch gives **413**, and a missing model gives **503**.
 
